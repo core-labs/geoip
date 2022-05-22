@@ -1,4 +1,4 @@
-module github.com/Loyalsoldier/geoip
+module github.com/core-labs/geoip
 
 go 1.18
 

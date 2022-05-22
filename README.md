@@ -6,7 +6,7 @@ This project releases GeoIP files automatically every Thursday. It also provides
 
 ## 与官方版 GeoIP 的区别
 
-- 中国大陆 IPv4 地址数据使用 [IPIP.net](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)
+- 中国大陆 IPv4 地址数据使用 [IPIP.net](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)、[纯真IP](https://raw.githubusercontent.com/metowolf/iplist/master/data/country/CN.txt)
 - 新增类别（方便有特殊需求的用户使用）：
   - `geoip:cloudflare`（`GEOIP,CLOUDFLARE`）
   - `geoip:cloudfront`（`GEOIP,CLOUDFRONT`）
@@ -71,42 +71,42 @@ rules:
 
 > 适用于 [V2Ray](https://github.com/v2fly/v2ray-core)、[Xray-core](https://github.com/XTLS/Xray-core) 和 [Trojan-Go](https://github.com/p4gefau1t/trojan-go)。
 
-- **geoip.dat**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat)
-- **geoip.dat.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat.sha256sum)
-- **geoip-only-cn-private.dat**（精简版 GeoIP，只包含 `geoip:cn` 和 `geoip:private`）：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat)
-- **geoip-only-cn-private.dat.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat.sha256sum)
-- **geoip-asn.dat**（精简版 GeoIP，只包含上述新增类别）：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat)
-- **geoip-asn.dat.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat.sha256sum)
-- **cn.dat**（精简版 GeoIP，只包含 `geoip:cn`）：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat)
-- **cn.dat.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat.sha256sum)
-- **private.dat**（精简版 GeoIP，只包含 `geoip:private`）：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat)
-- **private.dat.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat.sha256sum)
+- **geoip.dat**：[https://raw.githubusercontent.com/core-labs/geoip/release/geoip.dat](https://raw.githubusercontent.com/core-labs/geoip/release/geoip.dat)
+- **geoip.dat.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/geoip.dat.sha256sum)
+- **geoip-only-cn-private.dat**（精简版 GeoIP，只包含 `geoip:cn` 和 `geoip:private`）：[https://raw.githubusercontent.com/core-labs/geoip/release/geoip-only-cn-private.dat](https://raw.githubusercontent.com/core-labs/geoip/release/geoip-only-cn-private.dat)
+- **geoip-only-cn-private.dat.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/geoip-only-cn-private.dat.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/geoip-only-cn-private.dat.sha256sum)
+- **geoip-asn.dat**（精简版 GeoIP，只包含上述新增类别）：[https://raw.githubusercontent.com/core-labs/geoip/release/geoip-asn.dat](https://raw.githubusercontent.com/core-labs/geoip/release/geoip-asn.dat)
+- **geoip-asn.dat.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/geoip-asn.dat.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/geoip-asn.dat.sha256sum)
+- **cn.dat**（精简版 GeoIP，只包含 `geoip:cn`）：[https://raw.githubusercontent.com/core-labs/geoip/release/cn.dat](https://raw.githubusercontent.com/core-labs/geoip/release/cn.dat)
+- **cn.dat.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/cn.dat.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/cn.dat.sha256sum)
+- **private.dat**（精简版 GeoIP，只包含 `geoip:private`）：[https://raw.githubusercontent.com/core-labs/geoip/release/private.dat](https://raw.githubusercontent.com/core-labs/geoip/release/private.dat)
+- **private.dat.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/private.dat.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/private.dat.sha256sum)
 
 ### MaxMind mmdb 格式文件
 
 > 适用于 [Clash](https://github.com/Dreamacro/clash) 和 [Leaf](https://github.com/eycorsican/leaf)。
 
-- **Country.mmdb**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb)
-- **Country.mmdb.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb.sha256sum)
-- **Country-only-cn-private.mmdb**（精简版 GeoIP，只包含 `GEOIP,CN` 和 `GEOIP,PRIVATE`）：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb)
-- **Country-only-cn-private.mmdb.sha256sum**：[https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb.sha256sum)
+- **Country.mmdb**：[https://raw.githubusercontent.com/core-labs/geoip/release/Country.mmdb](https://raw.githubusercontent.com/core-labs/geoip/release/Country.mmdb)
+- **Country.mmdb.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/Country.mmdb.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/Country.mmdb.sha256sum)
+- **Country-only-cn-private.mmdb**（精简版 GeoIP，只包含 `GEOIP,CN` 和 `GEOIP,PRIVATE`）：[https://raw.githubusercontent.com/core-labs/geoip/release/Country-only-cn-private.mmdb](https://raw.githubusercontent.com/core-labs/geoip/release/Country-only-cn-private.mmdb)
+- **Country-only-cn-private.mmdb.sha256sum**：[https://raw.githubusercontent.com/core-labs/geoip/release/Country-only-cn-private.mmdb.sha256sum](https://raw.githubusercontent.com/core-labs/geoip/release/Country-only-cn-private.mmdb.sha256sum)
 
 ## 定制 GeoIP 文件
 
 可通过以下几种方式定制 GeoIP 文件：
 
-- **在线生成**：[Fork](https://github.com/Loyalsoldier/geoip/fork) 本仓库后，修改自己仓库内的配置文件 `config.json` 和 GitHub Workflow `.github/workflows/build.yml`
+- **在线生成**：[Fork](https://github.com/core-labs/geoip/fork) 本仓库后，修改自己仓库内的配置文件 `config.json` 和 GitHub Workflow `.github/workflows/build.yml`
 - **本地生成**：
   - 安装 [Golang](https://golang.org/dl/) 和 [Git](https://git-scm.com)
-  - 拉取项目代码: `git clone https://github.com/Loyalsoldier/geoip.git`
+  - 拉取项目代码: `git clone https://github.com/core-labs/geoip.git`
   - 进入项目根目录：`cd geoip`
   - 修改配置文件 `config.json`
   - 运行代码：`go run ./`
 
 **特别说明：**
 
-- **在线生成**：[Fork](https://github.com/Loyalsoldier/geoip/fork) 本项目后，如果需要使用 MaxMind GeoLite2 Country CSV 数据文件，需要在自己仓库的 **[Settings]** 选项卡的 **[Secrets]** 页面中添加一个名为 **MAXMIND_GEOLITE2_LICENSE** 的 secret，否则 GitHub Actions 会运行失败。这个 secret 的值为 MAXMIND 账号的 LICENSE KEY，需要[**注册 MAXMIND 账号**](https://www.maxmind.com/en/geolite2/signup)后，在[**个人账号管理页面**](https://www.maxmind.com/en/account)左侧边栏的 **[Services]** 项下的 **[My License Key]** 里生成。
-- **本地生成**：如果需要使用 MaxMind GeoLite2 Country CSV 数据文件（`GeoLite2-Country-CSV.zip`），需要提前从 MaxMind 下载，或从本项目 [release 分支](https://github.com/Loyalsoldier/geoip/tree/release)[下载](https://github.com/Loyalsoldier/geoip/raw/release/GeoLite2-Country-CSV.zip)，并解压缩到名为 `geolite2` 的目录。
+- **在线生成**：[Fork](https://github.com/core-labs/geoip/fork) 本项目后，如果需要使用 MaxMind GeoLite2 Country CSV 数据文件，需要在自己仓库的 **[Settings]** 选项卡的 **[Secrets]** 页面中添加一个名为 **MAXMIND_GEOLITE2_LICENSE** 的 secret，否则 GitHub Actions 会运行失败。这个 secret 的值为 MAXMIND 账号的 LICENSE KEY，需要[**注册 MAXMIND 账号**](https://www.maxmind.com/en/geolite2/signup)后，在[**个人账号管理页面**](https://www.maxmind.com/en/account)左侧边栏的 **[Services]** 项下的 **[My License Key]** 里生成。
+- **本地生成**：如果需要使用 MaxMind GeoLite2 Country CSV 数据文件（`GeoLite2-Country-CSV.zip`），需要提前从 MaxMind 下载，或从本项目 [release 分支](https://github.com/core-labs/geoip/tree/release)[下载](https://github.com/core-labs/geoip/raw/release/GeoLite2-Country-CSV.zip)，并解压缩到名为 `geolite2` 的目录。
 
 ### 概念解析
 
@@ -116,7 +116,7 @@ These two concepts are notable: `input` and `output`. The `input` is the data so
 
 ### 支持的格式
 
-关于每种格式所支持的配置选项，查看本项目 [`config-example.json`](https://github.com/Loyalsoldier/geoip/blob/HEAD/config-example.json) 文件。
+关于每种格式所支持的配置选项，查看本项目 [`config-example.json`](https://github.com/core-labs/geoip/blob/HEAD/config-example.json) 文件。
 
 支持的 `input` 输入格式：
 
@@ -140,7 +140,7 @@ These two concepts are notable: `input` and `output`. The `input` is the data so
 
 ## CLI 功能展示
 
-可通过 `go install -v github.com/Loyalsoldier/geoip@latest` 直接安装 CLI。
+可通过 `go install -v github.com/core-labs/geoip@latest` 直接安装 CLI。
 
 ```bash
 $ ./geoip -h
@@ -185,9 +185,7 @@ All available output formats:
   - text (Convert data to plaintext CIDR format)
 ```
 
-## 激赏 | Donation
 
-**比特币（BTC）bech32 地址**：bc1qfe4nxcanet4w4ph8pf6qqyf263y68vw26nv9j9
 
 ## License
 
